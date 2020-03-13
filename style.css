@@ -1,0 +1,20 @@
+.cy-form-wrapper {
+  text-align: center;
+}
+
+#cy-form > div {
+  margin: 10px 0;
+}
+
+#cy-response {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+  background: #ebebeb;
+  margin-top: 40px;
+}
+
+#cy-time-input::after {
+  content: 'ms';
+  display: block;
+}
